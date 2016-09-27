@@ -1,0 +1,13 @@
+>>> alf = "abcdefghijklmnopqrstuvwxyz"
+>>> alf[2:13]
+'cdefghijklm'
+>>> alf[2:13:2]
+'cegikm'
+>>> alf[2:13:-2]
+''
+>>> alf[13:2:-2]
+'nljhfd'
+>>> alf[13:2]
+''
+>>> alf[::-1]
+'zyxwvutsrqponmlkjihgfedcba'
